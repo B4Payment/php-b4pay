@@ -1,0 +1,26 @@
+{
+    "name": "b4payment/b4pay-php-client",
+    "description": "B4Payment Client for PHP",
+    "keywords": [
+        "b4payment"
+    ],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.5.0",
+        "ext-curl": "*",
+        "psr/log": "1.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PaymentGateway\\Client\\": "src/"
+        }
+    },
+    "scripts": {
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
