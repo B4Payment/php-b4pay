@@ -10,6 +10,7 @@ $customer = new Customer();
 $customer->setBillingCountry("AT")
 	->setEmail("customer@email.test");
 
+$debit = new Debit();
 $debit->setTransactionId("uniqueTransactionReference")
 	->setSuccessUrl($redirectUrl)
 	->setCancelUrl($redirectUrl)
